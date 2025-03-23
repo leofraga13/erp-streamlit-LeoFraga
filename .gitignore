@@ -1,0 +1,30 @@
+# Ignorar arquivos compilados
+__pycache__/
+*.py[cod]
+
+# Ignorar banco de dados SQLite
+*.db
+*.sqlite3
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Ignorar configurações do ambiente virtual
+venv/
+.env
+.envrc
+env
+*.bak
+
+# Ignorar arquivos do Streamlit
+.streamlit/
+
+# Ignorar caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar configurações do sistema operacional
+.DS_Store
+Thumbs.db
